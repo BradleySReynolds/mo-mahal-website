@@ -1,0 +1,205 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+/* HOMEPAGE */
+
+hr {
+  margin: 24px;
+}
+
+.headline {
+  width: 100vw;
+  height: 20%;
+}
+
+.App {
+  text-align: center;
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.main-header {
+  padding: 24px;
+}
+
+.sub-heading {
+  padding: 24px;
+  font-size: 28px;
+  font-weight: 300;
+}
+
+.main--img {
+  padding: 24px;
+}
+
+.quote {
+  min-width: 500px;
+  max-width: 50%;
+  font-size: 18px;
+  line-height: 2;
+  margin: 0 auto;
+}
+
+.quoteName {
+  padding: 24px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 300;
+  padding-left: 400px;
+}
+
+.about--container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 70%;
+  margin: 0 auto;
+}
+
+.about--image {
+  max-height: 450px;
+  max-width: 450px;
+  min-height: 200px;
+  min-width: 200px;
+  border: 1px solid black;
+}
+
+.about--container-item {
+  margin: 24px;
+}
+
+.about--para {
+  line-height: 2;
+  font-weight: 300;
+  max-width: 400px;
+  min-width: 400px;
+}
+
+/* NAVIGATION BAR */
+
+nav {
+  background: linear-gradient(to bottom right, #a7aeb4, #cbd9d8);
+  margin-top: -10px;
+}
+
+.nav-head {
+  color: white;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+}
+
+.link {
+  text-decoration: none;
+  color: white;
+
+  padding: 24px;
+}
+
+/* FOR SALE & SOLD ITMES*/
+
+.for-sale--header {
+  font-size: 24px;
+  padding: 24px;
+}
+
+.items {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.item {
+  margin: 24px;
+}
+
+.itemImage {
+  height: 300px;
+  width: 300px;
+  margin: 12px;
+}
+
+.itemName {
+  font-weight: 300;
+  font-size: 18px;
+  max-width: 300px;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.product-name {
+  margin: 24px;
+}
+
+.product-image {
+  height: 500px;
+  width: 500px;
+  margin: 24px;
+}
+
+.infoAndImg {
+  display: flex;
+  justify-content: center;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+
+  min-width: 500px;
+}
+
+.info-para {
+  margin: 12px;
+  text-indent: -10px;
+  margin-left: 10px;
+}
+
+.back {
+  text-decoration: none;
+  border: 1px solid black;
+  border-radius: 3px;
+  color: black;
+  padding: 4px;
+  margin: 24px;
+}
+
+.smallerImg {
+  height: 150px;
+  width: 150px;
+  margin: 12px;
+}
+
+.smallerImg:hover {
+  border: 1px solid black;
+  transform: scale(1.05);
+}
+
+/* CONTACT */
+.contact-section {
+  margin: 24px;
+  height: 500px;
+  width: 500px;
+}
+
+.contact-header {
+  font-weight: 300;
+  margin: 24px;
+}
+
+.contact-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
